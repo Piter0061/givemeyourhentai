@@ -1,0 +1,3 @@
+sudo docker build --tag=hentai .
+
+sudo docker run -d --restart unless-stopped -v /home/pi/ASZA/givemeyourhentai/:/app hentai:latest      
